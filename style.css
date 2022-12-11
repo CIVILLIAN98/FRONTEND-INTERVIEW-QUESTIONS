@@ -6,20 +6,21 @@ ol {
   width: 50%;
   border-radius: 20px;
   text-align: center;
-  margin: 0 auto ;
+  margin: 0 auto;
 }
 li {
   font-style: italic;
 }
 p,
 pre {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-style: normal;
   border-bottom: 2px solid rgb(0, 0, 0);
+  border-top: 2px solid rgb(0, 0, 0);
 }
-body{
+body {
   text-align: center;
 }
-table{
+table {
   margin: 0 auto;
 }
