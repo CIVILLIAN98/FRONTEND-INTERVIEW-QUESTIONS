@@ -260,6 +260,113 @@
           try to access variables with IIFE then it throws an error
         </p>
       </li>
+      <li>
+        What is a cookie?
+        <p>
+          A cookie is a piece of data that is stored on your computer to be
+          accessed by your browser. Cookies are saved as key/value pairs.
+        </p>
+      </li>
+      <li>
+        Why do you need a cookie?
+        <p>
+          Cookies are used to remember information about the user profile(such
+          as username). It basically involves two steps, When a user visits a
+          web page
+        </p>
+        <ol>
+          <li>the user profile can be stored in a cookie.</li>
+          <li>
+            Next time the user visits the page, the cookie remembers the user
+            profile.
+          </li>
+        </ol>
+      </li>
+      <li>
+        What are the options in a cookie?
+        <p>
+          Option Cookie is the default behavior for EZproxy when handling
+          cookies. With this option enabled, EZproxy will pass through cookies
+          that do not include a domain, but intercept and handle cookies that do
+          include a domain. The intercepted cookies are stored as part of the
+          user session on the EZproxy server.
+        </p>
+      </li>
+      <li>
+        How do you delete a cookie?
+        <p>
+          You can delete a cookie by setting the expiry date as a passed date.
+          You don't need to specify a cookie value in this case.
+        </p>
+      </li>
+      <li>
+        What are the differences between cookie, local storage and session
+        storage?
+        <img
+          src="./cookie.png"
+          alt="differences"
+          style="width: 872px; height: 300px; margin: 0 auto"
+        />
+      </li>
+      <li>
+        What is the main difference between localStorage and sessionStorage?
+        <p>
+          LocalStorage is the same as SessionStorage but it persists the data
+          even when the browser is closed and reopened(i.e it has no expiration
+          time) whereas in sessionStorage data gets cleared when the page
+          session ends.
+        </p>
+      </li>
+      <li>
+        How do you access web sessionStorage?
+        <p>
+          The Window object implements the WindowLocalStorage and
+          WindowSessionStorage objects which has
+          localStorage(window.localStorage) and
+          sessionStorage(window.sessionStorage) properties respectively. These
+          properties create an instance of the Storage object, through which
+          data items can be set, retrieved and removed for a specific domain and
+          storage type (session or local).
+        </p>
+      </li>
+      <li>
+        What are the methods available on session storage?
+        <p>
+          The session storage provided methods for reading, writing and clearing
+          the session data
+        </p>
+      </li>
+      <li>
+        What is a storage event and its event handler?
+        <p>
+          The StorageEvent is an event that fires when a storage area has been
+          changed in the context of another document. Whereas onstorage property
+          is an EventHandler for processing storage events.
+        </p>
+      </li>
+      <li>
+        Why do you need web sessionStorage?
+        <p>
+          Web storage is more secure, and large amounts of data can be stored
+          locally, without affecting website performance. Also, the information
+          is never transferred to the server. Hence this is a more recommended
+          approach than Cookies.
+        </p>
+      </li>
+      <li>
+        How do you check web storage browser support?
+        <p>
+          You need to check browser support for localStorage and sessionStorage
+          before using web storage
+        </p>
+      </li>
+      <li>
+        What is the difference between Element and Component?
+        <p>
+          React Element does not have any methods, making it light and faster to
+          render than components.
+        </p>
+      </li>
     </ol>
   </body>
 </html>
